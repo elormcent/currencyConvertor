@@ -12,7 +12,7 @@ import java.util.Map;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties(ignoreUnknown = true) //added this annotation to avoid any unexpected field that might be part of API
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ExchangeRateResponse {
     private boolean success;

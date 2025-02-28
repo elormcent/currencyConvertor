@@ -36,6 +36,7 @@
             <scope>test</scope>
         </dependency>
 
+<!--        Added lombok to simplify assessors and mutators-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -43,10 +44,11 @@
             <scope>provided</scope>
         </dependency>
 
+<!--        Added Swagger for easy documentation and api testing-->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.7.0</version> <!-- Check for the latest version -->
+            <version>1.7.0</version>
         </dependency>
 
 

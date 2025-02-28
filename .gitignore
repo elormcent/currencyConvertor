@@ -1,0 +1,8 @@
+/classes
+.idea/*
+target
+target/*
+target/classes*
+target/test-classes
+target/generated-sources
+target/generated-test-sources
